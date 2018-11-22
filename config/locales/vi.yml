@@ -1,7 +1,16 @@
 vi:
   layouts:
+    _footer: 
+      title: Ruby on Rails Tutorial
+      Michael Hartl: Michael Hartl
+      about: ve chung toi
+      contact: lien he
+      new: ban tin
     application:
       title: "Ruby on Rails Tutorial Sample App"
+      home: trang chu
+      help: tro giup
+      login: dang nhap
   static_pages:
     about:
       title: Chung toi
@@ -24,3 +33,10 @@ vi:
       tutorial : huong dan
       sample app : sample app
       content : Day la trang chu cua
+      content1 : chao mung den voi sample app
+      content2 : day la trang chu 
+      name : dang ky ngay!
+  users:
+    new:
+      name: "Dang ky"
+      content: "Khi dang ky o trang web ban se tro thanh nguoi dung"
