@@ -1,11 +1,18 @@
 vi:
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     about:
       title: Chung toi
       is about : la chung toi 
       book and : va sach
       tutorial : huong dan
-     content :   no la huong dan cua chuong trinh don gian
+      content :   no la huong dan cua chuong trinh don gian
+    contact:
+      contact : lien he
+      title: lien he
+      content :  Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ.
     help:
       help : tro giup
       tutorial : huong dan
