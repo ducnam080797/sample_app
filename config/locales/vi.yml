@@ -1,0 +1,19 @@
+vi:
+  static_pages:
+    about:
+      title: Chung toi
+      is about : la chung toi 
+      book and : va sach
+      tutorial : huong dan
+     content :   no la huong dan cua chuong trinh don gian
+    help:
+      help : tro giup
+      tutorial : huong dan
+      content : lay su tro giup trong sample app
+      book : sach 
+      content1 : lay su tro giup trong huong dan rails on tutorial tai 
+    home:
+      home : trang chu
+      tutorial : huong dan
+      sample app : sample app
+      content : Day la trang chu cua
