@@ -1,1 +1,19 @@
 en: 
+  static_pages:
+    about:
+      title: about
+      is about : is about
+      book and : book and
+      tutorial : tutorial
+      content : This is the sample application for the tutorial
+    help:
+      help : help
+      tutorial : tutorial
+      content : To get help on this sample app, see the Ruby on Rails Tutorial book
+      book : book
+      content1 : Get help on the Ruby on Rails Tutorial at the Ruby on Rails Tutorial
+    home:
+      home : home
+      tutorial : tutorial
+      sample app : sample app
+      content : This is the home page for the Ruby on Rails Tutorial sample application.
