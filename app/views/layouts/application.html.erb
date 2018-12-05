@@ -3,14 +3,14 @@
   <head>
     <title><%= yield :title %> | <%= t ".title" %></title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" : "reload" %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" : "reload" %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-<body>
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi" %>
-    
-    <%= yield %>
-</body>
+  <body>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
+  </body>
 </html>

@@ -1,4 +1,18 @@
 en: 
+  layouts:
+    footer: 
+      title: Ruby on Rails Tutorial
+      Michael Hartl: Michael Hartl
+      about: About
+      contact: Contact
+      new: News
+    header:
+      sample app: sample app
+      home: Home
+      help: Help
+      login: Login
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     about:
       title: about
@@ -6,6 +20,10 @@ en:
       book and : book and
       tutorial : tutorial
       content : This is the sample application for the tutorial
+    contact:
+      contact : contact
+      contact: contact
+      content :  the Ruby on Rails Tutorial about the sample app at the
     help:
       help : help
       tutorial : tutorial
@@ -17,3 +35,10 @@ en:
       tutorial : tutorial
       sample app : sample app
       content : This is the home page for the Ruby on Rails Tutorial sample application.
+      content1 : Welcome to the Sample App
+      content2 : This is the home page for the
+      name: Sign up now!
+  users:
+    new:
+      sign_up: "Sign up"
+      content: "This will be a signup page for new users."
