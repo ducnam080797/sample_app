@@ -1,4 +1,11 @@
 en: 
+  content: Welcome to the Sample App!
+  content1: Hello user  
+  content2: User not empty
+  content3: Failed to create accout
+  shared: 
+    error:
+      notice: The form contains
   layouts:
     footer: 
       title: Ruby on Rails Tutorial
@@ -42,3 +49,5 @@ en:
     new:
       sign_up: "Sign up"
       content: "This will be a signup page for new users."
+      confirmation : confirmation
+      notice:  Create my accout
