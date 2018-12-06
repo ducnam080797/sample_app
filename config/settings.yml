@@ -1,0 +1,4 @@
+user_validate:
+  maximum_name: 50
+  maximum_email: 255
+  maximum_password: 50

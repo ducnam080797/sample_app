@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.5.3"
 
+gem "config", "~> 1.7"
 gem "rails", "~> 5.2.1"
 gem "sqlite3"
 gem "rails-i18n"
