@@ -7,9 +7,10 @@ class User < ApplicationRecord
     length: {maximum: Settings.user_validate.maximum_email},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: true
-  has_secure_password
   validates :password, presence: true,
     length: {maximum: Settings.user_validate.maximum_password}
+
+  has_secure_password
 
   class << self
     def digest string
@@ -38,6 +39,10 @@ class User < ApplicationRecord
 
   def forget
     update remember_digest: nil
+  end
+
+  def current_user? user
+    self == user
   end
 
   private
