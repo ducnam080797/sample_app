@@ -7,6 +7,16 @@ en:
         name: Name
         email: Email
         password: Password
+  hi: Hi
+  wel_web: Welcome to the Sample App! Click on the link below to activate your account 
+  not_activeted: Account not activated and Check your email for the activation link.
+  account_activation: Account activation 
+  account_activated: Account activated
+  invalid_activation_link: Invalid activation link
+  warn: Please check your email to activate your account.
+  notice: Invalid email/password combination
+  danger_mess: Log in success!
+  profile_updated: Profile updated
   content: Welcome to the Sample App!
   notice: Failed to log in
   content1: Hello user  
@@ -17,8 +27,9 @@ en:
   content6: User deleted
   content7: Can not update profile
   user_not_found: User not found
-  shared: 
-    error:
+  active: Actived
+  shared:
+    error_messages:
       notice: The form contains
   layouts:
     footer: 
@@ -81,6 +92,12 @@ en:
       content: "This will be a signup page for new users."
       confirmation : confirmation
       notice:  Create my accout
+      edit_user: Edit user
+      save_changes: Save change
+      update: Update your profide
+    user:
+      delete: Delete
+      you_sure: You sure ?
     edit:
       edit_user: Edit user
       notice: Update your profile

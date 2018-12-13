@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :find_user, only: %i(show edit update destroy)
   before_action :logged_in_user, only: %i(index edit update destroy)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
@@ -15,7 +16,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
+      @user.send_activation_email
       flash[:info] = t "warn"
       redirect_to root_url
     else
@@ -24,16 +25,12 @@ class UsersController < ApplicationController
     end
   end
 
-  def show
-    @user = User.find_by id: params[:id]
-  end
+  def show; end
 
   def edit; end
 
   def update
-    @user = User.find_by id: params[:id]
-
-    if @user.update_attributes user_params
+    if @user.update user_params
       flash[:success] = t "content4"
       redirect_to @user
     else
@@ -43,7 +40,7 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    User.find_by(id: params[:id]).destroy
+    @user.destroy
     flash[:success] = t "content6"
     redirect_to users_url
   end
@@ -54,11 +51,6 @@ class UsersController < ApplicationController
     redirect_to login_url
   end
 
-  def correct_user
-    @user = User.find_by id: params[:id]
-    redirect_to(root_url) unless @user.current_user?(current_user)
-  end
-
   private
 
   def user_params
@@ -66,12 +58,17 @@ class UsersController < ApplicationController
           .permit :name, :email, :password, :password_confirmation
   end
 
-  def load_user
+  def find_user
     @user = User.find_by id: params[:id]
 
     return if @user
-    flash[:danger] = t "user_not_found"
-    redirect_to root_url
+    flash[:danger] = t "content1"
+    redirect_to root_path
+  end
+
+  def correct_user
+    @user = User.find_by id: params[:id]
+    redirect_to(root_url) unless @user.current_user?(current_user)
   end
 
   def admin_user
