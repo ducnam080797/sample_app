@@ -1,4 +1,11 @@
 vi:
+  content: Chao mung ban den voi Sample App
+  content1: xin chao nguoi dung
+  content2: nguoi dung khong ton tai
+  content3: That bai khi tao tai khoan
+  shared: 
+    error:
+      notice: form chua
   layouts:
     _footer: 
       title: Ruby on Rails Tutorial
@@ -40,3 +47,5 @@ vi:
     new:
       name: "Dang ky"
       content: "Khi dang ky o trang web ban se tro thanh nguoi dung"
+      confirmation: Xac nhan
+      notice: tao tai khoan cua ban
