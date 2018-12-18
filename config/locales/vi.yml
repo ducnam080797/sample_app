@@ -1,51 +1,55 @@
 vi:
-  content: Chao mung ban den voi Sample App
-  content1: xin chao nguoi dung
-  content2: nguoi dung khong ton tai
-  content3: That bai khi tao tai khoan
+  content: Chào mừng bạn đến với Sample App
+  content1: XIn chào người dùng
+  content2: Người dùng không tồn tại
+  content3: Tạo tài khoản thất bại
   shared: 
     error:
-      notice: form chua
+      notice: Form chứa
   layouts:
     _footer: 
       title: Ruby on Rails Tutorial
       Michael Hartl: Michael Hartl
-      about: ve chung toi
-      contact: lien he
-      new: ban tin
+      about: Về chúng tôi
+      contact: Liên hệ
+      new: Bản tin
     application:
       title: "Ruby on Rails Tutorial Sample App"
-      home: trang chu
-      help: tro giup
-      login: dang nhap
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
+  session:
+      new:
+        log_in: Đăng nhập
+        content : Đăng nhập ngay
   static_pages:
     about:
-      title: Chung toi
-      is about : la chung toi 
-      book and : va sach
-      tutorial : huong dan
-      content :   no la huong dan cua chuong trinh don gian
+      title: Chúng tôi
+      is about : là chúng tôi
+      book and : Và quyển sách
+      tutorial : Hướng dẫn
+      content : Nó là hướng đãn cơ bản của
     contact:
-      contact : lien he
-      title: lien he
-      content :  Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ.
+      contact : Liển hệ
+      title: liên hệ
+      content : Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ.
     help:
-      help : tro giup
-      tutorial : huong dan
-      content : lay su tro giup trong sample app
-      book : sach 
-      content1 : lay su tro giup trong huong dan rails on tutorial tai 
+      help : Trợ giúp
+      tutorial : Hướng dẫn
+      content : Lấy sự trợ giúp trong sample app
+      book : Quyển sách
+      content1 : Lấy hướng dẫn của sự trợ giúp trong rails on tutorial tại
     home:
-      home : trang chu
-      tutorial : huong dan
+      home : Trang chủ
+      tutorial : Hướng dẫn
       sample app : sample app
-      content : Day la trang chu cua
-      content1 : chao mung den voi sample app
-      content2 : day la trang chu 
-      name : dang ky ngay!
+      content : Đây là trang chủ của
+      content1 : Chào mừng bạn đến với sample app
+      content2 : Đây là trang chủ 
+      name : Đăng ký
   users:
     new:
-      name: "Dang ky"
-      content: "Khi dang ky o trang web ban se tro thanh nguoi dung"
-      confirmation: Xac nhan
-      notice: tao tai khoan cua ban
+      name: Đăng ký
+      content: Đăng ký ở đây bạn sẽ trở thành người dùng
+      confirmation: Xác nhận
+      notice: Tạo tài khoản của bạn tại

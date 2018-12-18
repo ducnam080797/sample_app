@@ -51,3 +51,6 @@ en:
       content: "This will be a signup page for new users."
       confirmation : confirmation
       notice:  Create my accout
+  sessions:
+      content: New user ?
+      log_in: Log in

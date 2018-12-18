@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new user_params
-        
+
     if @user.save
       flash[:success] = t "content"
       redirect_to @user
@@ -20,8 +20,7 @@ class UsersController < ApplicationController
 
     if @user
       flash[:success] = t "content1"
-      redirect_to root_url
-    else 
+    else
       flash[:danger] = t "content2"
       redirect_to root_url
     end
@@ -30,7 +29,7 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit :name, :email, :password, :password_confirmation
+    params.require(:user)
+          .permit :name, :email, :password, :password_confirmation
   end
-
 end
