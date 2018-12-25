@@ -4,3 +4,4 @@ user_validate:
   maximum_password: 50
 userhelper_size:
   size: 50
+  remember_active: 1

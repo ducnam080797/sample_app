@@ -7,12 +7,22 @@ vi:
     error:
       notice: Form chứa
   layouts:
-    _footer: 
+    footer: 
       title: Ruby on Rails Tutorial
       Michael Hartl: Michael Hartl
       about: Về chúng tôi
       contact: Liên hệ
       new: Bản tin
+    header:
+      users: Người dùng
+      profile: Tài liệu
+      settings: Cài đặt
+      log_out: Đăng xuất 
+      log_in: Đăng nhập
+      sample app: sample app
+      home: Trang chủ
+      help: Trợ giúp 
+      account: Tài khoản
     application:
       title: "Ruby on Rails Tutorial Sample App"
       home: Trang chủ
@@ -22,6 +32,8 @@ vi:
       new:
         log_in: Đăng nhập
         content : Đăng nhập ngay
+        title: Đăng nhập ngay
+        titles: Nhớ đăng nhập của tôi trên máy tính này
   static_pages:
     about:
       title: Chúng tôi

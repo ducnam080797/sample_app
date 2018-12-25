@@ -3,17 +3,21 @@
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_with url: login_path do |f| %>
-
+    <%= form_with scope: :session, local: true do |f| %>
+    
       <%= f.label :email %>
       <%= f.email_field :email, class: "form-control" %>
 
       <%= f.label :password %>
       <%= f.password_field :password, class: "form-control" %>
 
-      <%= f.submit t ".log_in", class: "btn btn-primary" %>
-    <% end %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+      <%= f.check_box :remember_me %>
+      <span><%= t ".titles" %></span>
+      <% end %>
 
-    <p> t ".content" <%= link_to t(".content"), signup_path %></p>
+      <%= f.submit t(".log_in"), class: "btn btn-primary" %>
+    <% end %>
+    <p><%= t ".content" %> <%= link_to t(".title"), signup_path %></p>  
   </div>
 </div>

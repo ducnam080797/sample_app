@@ -14,10 +14,15 @@ en:
       contact: Contact
       new: News
     header:
+      users: Users
+      profile: Profile
+      settings: Settings
+      log_out: Log Out
+      log_in: Log in
       sample app: sample app
       home: Home
       help: Help
-      login: Login
+      account: Account
     application:
       title: "Ruby on Rails Tutorial Sample App"
   static_pages:
@@ -45,12 +50,15 @@ en:
       content1 : Welcome to the Sample App
       content2 : This is the home page for the
       name: Sign up now!
+  sessions:
+    new:
+      log_in: Log in
+      content: New user?
+      title: Sign up now!
+      titles: Remember me on this computer
   users:
     new:
       sign_up: "Sign up"
       content: "This will be a signup page for new users."
       confirmation : confirmation
       notice:  Create my accout
-  sessions:
-      content: New user ?
-      log_in: Log in
