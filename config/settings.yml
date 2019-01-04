@@ -5,3 +5,5 @@ user_validate:
 userhelper_size:
   size: 50
   remember_active: 1
+page_of_user:
+  pages_user: 10

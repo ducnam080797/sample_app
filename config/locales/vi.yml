@@ -1,8 +1,23 @@
 vi:
+  activerecord:
+    activerecord:
+      model:
+        user: Người dùng  
+    attributes:
+      user:
+        name: Tên người dùng
+        email: Email
+        password: Mật khẩu
   content: Chào mừng bạn đến với Sample App
+  notice: Đăng nhập thất bại
   content1: XIn chào người dùng
   content2: Người dùng không tồn tại
   content3: Tạo tài khoản thất bại
+  content4: Cập nhật dữ liêu
+  content5: Mời bạn đăng nhập lại
+  content6: Người dũng đã được xóa
+  content7: Không thể cập nhật thông tin
+  user_not_found: Không tìm thấy người dùng
   shared: 
     error:
       notice: Form chứa
@@ -60,8 +75,21 @@ vi:
       content2 : Đây là trang chủ 
       name : Đăng ký
   users:
+    form:
+      confirmation: Xác nhận 
     new:
       name: Đăng ký
       content: Đăng ký ở đây bạn sẽ trở thành người dùng
       confirmation: Xác nhận
-      notice: Tạo tài khoản của bạn tại
+      notice: Tạo tài khoản của bạn 
+      sign_up: Đăng ký
+    edit:
+      edit_user: Chỉnh sửa
+      notice: Cập nhật thông tin người dùng
+      change: Thay đổi
+      save_changes: Lưu thay đổi
+    index:
+      all_users: Tất cả người dùng
+    user:
+      delete: Xoa
+      you_sure: Bạn chắc rồi chú

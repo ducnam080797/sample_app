@@ -1,8 +1,22 @@
 en: 
+  activerecord:
+    model:
+      user: User
+    attributes:
+      user:
+        name: Name
+        email: Email
+        password: Password
   content: Welcome to the Sample App!
+  notice: Failed to log in
   content1: Hello user  
   content2: User not empty
   content3: Failed to create accout
+  content4: Profile updated
+  content5: Please log in
+  content6: User deleted
+  content7: Can not update profile
+  user_not_found: User not found
   shared: 
     error:
       notice: The form contains
@@ -25,6 +39,9 @@ en:
       account: Account
     application:
       title: "Ruby on Rails Tutorial Sample App"
+      home: Home
+      help: Help
+      login: Login
   static_pages:
     about:
       title: about
@@ -57,8 +74,20 @@ en:
       title: Sign up now!
       titles: Remember me on this computer
   users:
+    form:
+      confirmation: Confirmation
     new:
       sign_up: "Sign up"
       content: "This will be a signup page for new users."
       confirmation : confirmation
       notice:  Create my accout
+    edit:
+      edit_user: Edit user
+      notice: Update your profile
+      change: Change
+      save_changes: Save changes
+    index:
+      all_users: All users
+    user:
+      delete: Delete
+      you_sure: You sure?
