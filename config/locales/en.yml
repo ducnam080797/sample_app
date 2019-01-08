@@ -7,7 +7,21 @@ en:
         name: Name
         email: Email
         password: Password
+  find_user: Find user
+  not_find_uesr: Can not find user
+  email_sent: Email sent with password reset instructions
+  email_address: Email address not found
+  password_reset: Password reset
+  reset_password: Reset password
+  password_click_link: To reset your password click the link below
+  time_expire: This link will expire in two hours
+  not_request: If you did not request your password to be reset, 
+    please ignore this email and your password will stay as it is.
   hi: Hi
+  empty_password: Can't be empty
+  reset_success: Password has been reset
+  update_password: Update password
+  password_expired: Password reset has expired
   wel_web: Welcome to the Sample App! Click on the link below to activate your account 
   not_activeted: Account not activated and Check your email for the activation link.
   account_activation: Account activation 
@@ -28,6 +42,10 @@ en:
   content7: Can not update profile
   user_not_found: User not found
   active: Actived
+  password_resets:
+    new:
+      forgot_password: Forgot password
+      submit: Submit
   shared:
     error_messages:
       notice: The form contains
@@ -80,6 +98,7 @@ en:
       name: Sign up now!
   sessions:
     new:
+      forgot_password: Forgot password
       log_in: Log in
       content: New user?
       title: Sign up now!
