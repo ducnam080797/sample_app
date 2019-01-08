@@ -8,6 +8,11 @@ vi:
         name: Tên người dùng
         email: Email
         password: Mật khẩu
+  hi: Chào mừng
+  wel_web: Chào mừng đến sample app . Bấm vào đây để mở khóa tài khoản của ban
+  not_activeted: Tài khoản chưa được kích hoạt và Kiểm tra email của bạn cho các liên kết kích hoạt.
+  account_activated: Tài khoản được kích hoạt!
+  invalid_activation_link: Liên kết kích hoạt không hợp lệ
   content: Chào mừng bạn đến với Sample App
   notice: Đăng nhập thất bại
   content1: XIn chào người dùng
@@ -18,6 +23,13 @@ vi:
   content6: Người dũng đã được xóa
   content7: Không thể cập nhật thông tin
   user_not_found: Không tìm thấy người dùng
+  warn: Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn.
+  notice: email / mật khẩu không hợp lệ
+  success_mess: Cho phép đăng nhập
+  profile_updated: Cập nhật dữ liệu người dùng
+  please_log_in: Xin hãy đăng nhập
+  user_deleted: Người dùng được xóa
+  active: kích hoạt
   shared: 
     error:
       notice: Form chứa
