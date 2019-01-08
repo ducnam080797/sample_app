@@ -1,3 +1,4 @@
+userhelper_size: 80
 user_validate:
   maximum_name: 50
   maximum_email: 255
@@ -7,3 +8,11 @@ userhelper_size:
   remember_active: 1
 page_of_user:
   pages_user: 10
+remember_active: 1
+size_index: 50
+maximum_micropost: 140
+size_micropost: 50
+micropost_items_page: 10
+size_picture_page: 5
+gravatar_size: 30
+gravatar_size_user: 50

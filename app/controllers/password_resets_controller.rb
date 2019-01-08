@@ -41,7 +41,9 @@ class PasswordResetsController < ApplicationController
   end
 
   def catch_user
-    return if @user = User.find_by email: params[:email]
+    @user = User.find_by email: params[:email]
+
+    return if @user
     flash[:danger] = t "not_find_user"
   end
 
