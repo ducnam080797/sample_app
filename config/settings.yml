@@ -16,3 +16,4 @@ micropost_items_page: 10
 size_picture_page: 5
 gravatar_size: 30
 gravatar_size_user: 50
+size_show_follow: 30

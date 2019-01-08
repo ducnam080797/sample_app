@@ -8,6 +8,10 @@ vi:
         name: Tên người dùng
         email: Email
         password: Mật khẩu
+  following: Lượt theo dõi
+  followers: Người theo dõi
+  unfollow: Bỏ theo dõi
+  follow: Theo dõi
   please_log_in : Xin hãy đăng nhập 
   can_not_show : Không được đưa ra
   should_be_size: Nên dưới 5 MB

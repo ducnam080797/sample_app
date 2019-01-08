@@ -7,6 +7,10 @@ en:
         name: Name
         email: Email
         password: Password
+  following: following
+  followers: follower
+  unfollow: unfollow
+  follow: follow
   please_log_in: Please log in
   can_not_show: Can not show
   should_be_size: should be less than 5MB
