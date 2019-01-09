@@ -8,7 +8,19 @@ vi:
         name: Tên người dùng
         email: Email
         password: Mật khẩu
+  email_sent: Email được gửi với hướng dẫn đặt lại mật khẩu
+  email_address: Không tìm thấy địa chỉ email
+  password_reset: Tạo lại mật khẩu
+  password_reset: Mật khẩu tạo lại
+  password_click_link: Để thiết lập lại mật khẩu của bạn, nhấp vào liên kết dưới đây
+  time_expire: Liên kết này sẽ hết hạn sau hai giờ nữa
+  not_request: Nếu bạn không yêu cầu đặt lại mật khẩu, 
+    vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
   hi: Chào mừng
+  update_password: Cập nhập mật khẩu
+  empty_password: Không thể để trống
+  password_expired: Đặt lại mật khẩu đã hết hạn.
+  reset_success: Mật khẩu đã được đặt lại
   wel_web: Chào mừng đến sample app . Bấm vào đây để mở khóa tài khoản của ban
   not_activeted: Tài khoản chưa được kích hoạt và Kiểm tra email của bạn cho các liên kết kích hoạt.
   account_activated: Tài khoản được kích hoạt!
@@ -30,6 +42,10 @@ vi:
   please_log_in: Xin hãy đăng nhập
   user_deleted: Người dùng được xóa
   active: kích hoạt
+  password_resets:
+    new:
+      forgot_password: Quên mật khẩu
+      submit: Xác nhận
   shared: 
     error:
       notice: Form chứa
@@ -57,6 +73,7 @@ vi:
       login: Đăng nhập
   session:
       new:
+        forgot_password: Quên mật khẩu 
         log_in: Đăng nhập
         content : Đăng nhập ngay
         title: Đăng nhập ngay

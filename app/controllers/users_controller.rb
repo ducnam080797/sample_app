@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :find_user, only: %i(show edit update destroy)
   before_action :logged_in_user, only: %i(index edit update destroy)
   before_action :correct_user, only: %i(edit update)
-  before_action :admin_user, only: :destroy
+  before_action :admin_user, only: %i(destroy)
 
   def index
     @users = User.page(params[:page]).per Settings.page_of_user.pages_user
