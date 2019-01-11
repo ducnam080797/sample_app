@@ -8,6 +8,20 @@ vi:
         name: Tên người dùng
         email: Email
         password: Mật khẩu
+  please_log_in : Xin hãy đăng nhập 
+  can_not_show : Không được đưa ra
+  should_be_size: Nên dưới 5 MB
+  new_micropost: Soạn micropost mới...
+  micropost_feed: Những bài đăng
+  delete: Xóa
+  micropost: Bài đăng
+  micropost_created: Micropost đã được tạo
+  micropost_not_deleted: Micropost không được xóa
+  micropost_deleted: Micropost đã được xóa
+  view_my_profile: Xem thông tin về tôi
+  you_sure: Bạn chắc chứ ?
+  posted: Đã được đăng
+  notice01: Tạo tài khoản
   email_sent: Email được gửi với hướng dẫn đặt lại mật khẩu
   email_address: Không tìm thấy địa chỉ email
   password_reset: Tạo lại mật khẩu
@@ -71,7 +85,7 @@ vi:
       home: Trang chủ
       help: Trợ giúp
       login: Đăng nhập
-  session:
+  sessions:
       new:
         forgot_password: Quên mật khẩu 
         log_in: Đăng nhập
@@ -121,4 +135,9 @@ vi:
       all_users: Tất cả người dùng
     user:
       delete: Xoa
-      you_sure: Bạn chắc rồi chú
+      you_sure: Ban co chac muon xoa chu ?
+  password_resets:
+    edit:
+      reset_password: Đặt lại mật khẩu
+    new:
+      title: Quên mật khẩu
