@@ -26,6 +26,9 @@ class UsersController < ApplicationController
   end
 
   def show
+    @btn_follow = current_user.active_relationships.build
+    @btn_unfollow = current_user.active_relationships
+                                .find_by followed_id: @user.id
     return unless @user.microposts
     @microposts = @user.microposts.order_desc.page(params[:page])
                        .per Settings.micropost_items_page

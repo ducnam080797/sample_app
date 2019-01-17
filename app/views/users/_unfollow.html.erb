@@ -1,0 +1,4 @@
+<%= form_with model: @btn_unfollow, data:{turbolinks: false},
+  html:{method: :delete} do |f| %>
+  <%= f.submit t "unfollow", class: "btn" %>
+<% end %>
